@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+body {
+	font-family: 'Saira Condensed', sans-serif;
+	background: #0f2027; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-bg {
+	background: #3e5151; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#decba4,
+		#3e5151
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#decba4,
+		#3e5151
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.card {
+	height: 500px;
+}
